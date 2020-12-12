@@ -1,0 +1,473 @@
+1.   Create an html page to display the following nested list
+ 
+CODE
+
+<html>
+<body>
+<ol>
+<li>Coffee</li>
+<li>Tea</li>
+<ol type="a">
+<li>Black tea</li>
+<li>Green tea</li>
+</ol>
+<ol type="i">
+<li>China</li>
+<li>Africa</li>
+</ol>
+<li>Milk</li>
+</ol>
+</body>
+</html>
+2. Create links to three different pages on three different websites that should all open in a new window.  
+CODE
+<html>
+<head>
+</head>
+<body>
+<br><br>
+<a href="http://photoepa.com/" target="_blank">photoepa</a>
+<br><br>
+<a href="http://www.mgu.ac.in/" target="_blank">mgu</a>
+<br><br>
+<a href="https://github.com/" target="_blank">GitHub</a>
+</body>
+</html>
+3. Create a page with a link at the top of it that when clicked will jump all the way to the bottom of the page.
+CODE
+
+<html>
+<body>
+<a href="#bottom">Click here to jump to the bottom of the page</a>
+<p>hai</p>
+<p>hello</p>
+<p>how are you</p>
+<p>some text</p>
+<p>hai there</p>
+<p>how many</p>
+<p>how well</p>
+<p>how do you do</p>
+<p>stars</p>
+<p>moon</p>
+<p>sky</p>
+<p>flowers</p>
+<p>fruits</p>
+<p>mango</p>
+<p>orange</p>
+<p>apple</p>
+<p>banana</p>
+<p>guava</p>
+<p>jackfruits</p>
+<a name="bottom">The bottom of page</a>
+</body>
+</html>
+
+4. Display three different images. Skip two lines between each image. Each image should have a heading.
+CODE
+<html>
+<head>
+	<title> </title>
+</head>
+<body>
+<br><br>
+<img src="C:\Users\user\Desktop\mango.jpg" alt="mango" title="mango"/>
+<br><br>
+<img src="C:\Users\user\Desktop\dog.jpg" alt="dog" title="dog"/>
+
+<br><br>
+<img src="C:\Users\user\Desktop\bird.jpg" alt="bird" title="bird"/>
+</body>
+</html>
+
+5. Display an image that when clicked will link to a search engine of your choice in a different window
+CODE
+<html>
+<head>
+</head>
+<body>
+<br><br>
+<center>
+<a href="https://www.google.com/" target="_blank">
+<img src="C:\Users\user\Desktop\download.jpeg" alt="GOOGLE"/>
+</a>
+<p>Click on the image to be taken to the Google search engine.</p>
+</center>
+</body>
+6. Create the following Html Page using appropriate form controls
+
+CODE
+
+<html>
+<head>
+<style>
+.div_1{background-color:orange;margin:20px;}
+.div_2{background-color:yellow;margin:20px;}
+</style>
+</head>
+<body>
+<center>
+<div class="div_1"><font size="4" face="cooper"><h1>The world of fruit</h1></font></div>
+<div class="div_2">
+<form method="post">
+<font size="4" face="cooper"><h1 align="center">fruit survey</h1></font>
+<table align="center">
+<tr>
+<th>Name</th>
+<td><input type="text" name="name" style="width:400px;" class="form-control" required=""></td>
+</tr>
+<tr>
+<th>Address</th>
+<td><input type="text" name="address" style="width:400px;" class="form-control" required=""></td>
+</tr>
+<tr>
+<th>Email</th>
+<td><input type="text" name="email" style="width:400px;" class="form-control" required=""></td>
+</tr>
+<tr>
+<th>How many pieces of fruit<br>do you eat per day?</th>
+<td><input type="radio" name="0" value="0">0<br><input type="radio" name="1" value="1">1<br><input type="radio" name="2" value="2">2<br><input type="radio" name="more than 2" value="more than 2">more than 2
+</tr>
+<tr>
+<th>My favourite fruit</th>
+<td><textarea rows="4" cols="12" name="favourite fruit">Apple      Banana       Plum      Pomegranate    Orange  </textarea>
+</td>
+</tr>
+<tr>
+<th>Would you like a<br>brochure?</th>
+<td><input type="checkbox" name="yes" value="on"></td>
+</tr>
+<tr>
+<td align="center" colspan="2"><input type="submit" name="submit" value="submit"></td>
+</tr>
+</table>
+</form>
+</div>
+</center>
+</body>
+</html>
+7. Create an image map for ‘Kerala Map’. Map at least 3 districts so that when you click on that particular district the details regarding that district(eg: population, Area, Tourist Spots(with images), Monuments, Interesting Facts ) should be displayed on a new page.
+CODE
+
+<!DOCTYPE html>
+<html>
+<head>
+<center>
+<body>
+<h1><u><font color="grey" face="cooper">KERALA MAP</font></u></h1>
+<map name="kerala">
+<area shape="rect" coords="324,451,395,501" href="kottayam.html"/>
+<area shape="rect" coords="229,150,328,197" href="wayanad.html"/>
+<area shape="rect" coords="402,358,469,499" href="idukki.html"/> 
+</map>
+<img src="C:\Users\user\Desktop/images/kerala1.png" alt="kerala" usemap="#kerala"/>
+</center>
+</body>
+</head>
+</html>
+<html>
+<head>
+<style>
+.div_1{background-color:red; margin:20px;}
+.div_2{background-color:yellow;margin:20px;}
+</style>
+</head>
+<body>
+<center>
+<br>
+<div class="div_1"><h1><font color="white" size="6" face="cooper">KOTTAYAM</font></h1></div>
+<div class="div_2"><font color="green" face="Comic sans MS">
+<h1><u>POPULATION</u></h1><p>As of 2001 India census,[13] Kottayam Urban Agglomeration had a population of 172,878, while Kottayam district had a population of 1,974,551.
+<h1><u>Area</u></h1>
+<p>77.8km<sup>2</sup></p>
+<h1><u>TOURIST SPOTS</u></h1>
+<h2>ILLICKAL KALLU</h2>
+<img src="C:\Users\user\Desktop/images/illikkal-kallu-attractions.JPG" alt="illickal kallu" height="260" width="525"/>
+<p>located at the height of 6000 ft above the sea level in the western ghats of kottayam,kerala,Illickal kallu is a major tourist attraction.</p>
+<h2>MARMALA WATERFALLS</h2>
+<img src="C:\Users\user\Desktop/images/marmala-waterfall-kottayam-tourist-attraction-7qd9m4f.JPG" alt="marmala waterfalls" height="260" width="525"/>
+<p>Located at a distance of few kms from Erattupetta in kottayam inside a private rubber estate.</p>
+<h2>KOTTATHAVALAM</h2>
+<img src="C:\Users\user\Desktop/images/download (1).JPG" alt="kotta" height="260" width="525"/>
+<p>A fascinating cave carved out of rock surface is kottathavalam lying on the top of a murugan hills at kurishumala.</p>
+</div>
+</body>
+</html>
+<html>
+<head>
+<style>
+.div_1{background-color:red; margin:20px;}
+.div_2{background-color:yellow;margin:20px;}
+</style>
+</head>
+<body>
+<center>
+<br>
+<div class="div_1"><h1><font color="white" size="6" face="cooper">IDUKKI</font></h1></div>
+<div class="div_2"><font color="green" face="Comic sans MS">
+<h1><u>POPULATION</u></h1><p>according to 2011 census idukki district has a population of 1108974.The density of population is 255 per sq.km.
+<h1><u>Area</u></h1>
+<p>4,358<sup>2</sup></p>
+<h1><u>TOURIST SPOTS</u></h1>
+<h2>Eravikulam national park</h2>
+<img src="C:\Users\user\Desktop/images/eravikulam.jpg" alt="eravikulam" height="260" width="525"/>
+<p>Eravikulam national park is a 97km<sup>2</sup> national park located along the western ghats in the idukki district.</p>
+<h2>Anamudi</h2>
+<img src="C:\Users\user\Desktop/images/anamudi.jpg" alt="anamudi" height="260" width="525"/>
+<p>Anamudi is a mountain located in the indian state of kerala. It is the highest peak in the western ghats of south india.</p>
+<h2>Mattupetty dam</h2>
+<img src="C:\Users\user\Desktop/images/mattupetty.jpg" alt="mattupetty" height="260" width="525"/>
+<p>Mattupetty dam,near munnar in idukki district is a storage concrete gravity dam built in the mountains of kerala,india to conserve water for hydroelectricity.</p>
+</div>
+</body>
+</html>
+<html>
+<head>
+<style>
+.div_1{background-color:red; margin:20px;}
+.div_2{background-color:yellow;margin:20px;}
+</style>
+</head>
+<body>
+<center>
+<br>
+<div class="div_1"><h1><font color="white" size="6" face="cooper">WAYANAD</font></h1></div>
+<div class="div_2"><font color="green" face="Comic sans MS">
+<h1><u>POPULATION</u></h1><p>The district has a population density of 397 inhabitants per square kilometre(1,030/sq mi.).
+<h1><u>Area</u></h1>
+<p>2,132 km<sup>2</sup></p>
+<h1><u>TOURIST SPOTS</u></h1>
+<h2>edakkal caves</h2>
+<img src="C:\Users\user\Desktop/images/edakkal.jpg" alt="edakkal caves" height="260" width="525"/>
+<p>edakkal caves also edakal, are two natural caves at edakkal in wayanad district of kerala.The caves are situated 1200 m above sea level on Ambukutty mala, on the mysore plateau, in the western ghats.</p>
+<h2>soochipara waterfalls</h2>
+<img src="C:\Users\user\Desktop/images/soochipara.jpg" alt="soochipara" height="260" width="525"/>
+<p>soochipara waterfalls also known as sentinel rock waterfalls is a three-tiered waterfall in vellarimala,wayanad,india.It is surrounded by deciduous,evergreen and montane forests.</p>
+<h2>kuruvadweep</h2>
+<img src="C:\Users\user\Desktop/images/kuruvadweep.jpg" alt="kuruva" height="260" width="525"/>
+<p>kuruvadweep or kuruva island is a 950-acre protected river delta. It comprises three densely wooded uninhabited islands and a few submergible satellite islands,which lies on the banks of the tributaries of kabini river in the wayanad district.</p>
+</div>
+</body>
+</html>
+8. Construct this puzzle looking thing
+
+ CODE
+
+<html>
+<head>
+<body>
+<br><br>
+<table align="center" border="2" cellspacing="0">
+<tr>
+	<th colspan="6">Top</th>
+</tr>
+<tr>
+	<th rowspan="2">way left</th>
+	<th colspan="2">middle up</th>
+	<th rowspan="2">way right</th>
+</tr>
+<tr>
+	<th colspan="2">middle down</th>
+</tr>
+<tr>
+	<th colspan="6">down</th>
+</tr>
+</table>
+</body>
+</html>
+9. Make up three image links for 3 web browsers and put them in a borderless table. Construct the table so that there is just a little space between the images.  
+CODE
+<html>
+<head>
+<body>
+<br><br>
+<table align="center" style="border-collapse:collapse;">
+<tr>
+	<td><a href="https://www.firefox.com/" target="_blank">
+	<img src="C:\Users\user\Desktop\F.jpg" alt="firefox" height="220" width="220"/>
+	</td>
+</tr>
+<tr>
+	<td><a href="https://www.google.com/chrome/" target="_blank">
+	<img src="C:\Users\user\Desktop\G.jpg" alt="chrome" height="220" width="220"/>
+	</td>
+</tr>
+<tr>
+	<td><a href="https://microsoft.com" target="_blank">
+	<img src="C:\Users\user\Desktop\M.jpg" alt="edge" height="200" width="220"/>
+	</td>
+</tr>
+</table>
+</body>
+</head>
+</html>
+     	
+10.    Create the following html page using frames
+
+
+
+
+CODE
+
+<html>
+<frameset rows="15%,25%,*" border="3">
+<frame src="physics.html">
+<frame src="welcome.html">
+<frame src="frame3.html">
+</frameset>
+</html>
+
+<html>
+<body>
+<h1>
+<font color="green">
+Chemistry.html
+</font>
+</h1>
+</body>
+</html>
+
+<html>
+<body>
+<h1>
+<font color="green">
+Computer.html
+</font>
+</h1>
+</body>
+</html>
+
+<html>
+<frameset cols="33.5%,33.5%,*" border="3">
+<frame src="maths.html">
+<frame src="chemistry.html">
+<frame src="computer.html">
+</frameset>
+</html>
+
+
+<html>
+<body>
+<h1>
+<font color="green">
+Maths.html
+</font>
+</h1>
+</body>
+</html>
+
+<html>
+<body>
+<h1>
+<font color="green">
+Physics.html
+</font>
+</h1>
+</body>
+</html>
+
+<html>
+<body>
+<h1>
+<font color="green">
+Welcome.html
+</font>
+</h1>
+</body>
+</html>
+11. Create an   HTML page using frames which is similar to the following one. 
+In the left frame provide hyperlinks to 3 important monuments in world. On clicking that hyperlink an image of the monument should be displayed in right frame with suitable description
+ 
+
+CODE
+
+<html>
+<head>
+<title>navigation</title>
+</head>
+<frameset cols="25%,*">
+<frame src="link.html"/>
+<frame src="home.html" name="z"/>
+</frameset>
+<body>
+</body>
+</html>
+
+<html>
+<head>
+<title>index</title>
+<style>
+.div_1{background-color:yellow;margin:20px;}
+.div_2{background-color:grey;margin:20px;}
+</style>
+</head>
+<body>
+<center>
+<br>
+<div class="div_1"><h1><font color="green" size="6" face="cooper">famous monuments</font></h1></div>
+<div class="div_2"><font color="white" size="6" face="cooper">
+<ul>
+<li>India gate</li>
+<li>qutub minar</li>
+<li>taj mahal</li>
+</ul>
+</div>
+</center>
+</body>
+</html>
+
+<html>
+<head>
+<style>
+.div_1{background-color:orange;margin:20px;}
+.div_2{background-color:yellow;margin:20px;}
+</style>
+</head>
+<body>
+<center>
+<br>
+<div class="div_1"><h1><font color="green" size="6" face="cooper">India Gate</font></h1></div>
+<div class="div_2">
+<img src="C:\Users\Navya\Desktop/india gate.jpg" alt="India gate" height="300" width="450"/>
+<p>The India Gate (originally the All India War Memorial)is a war memorial located astirde the Rajpath,on the western edge of the "ceremonial axis" of New Delhi.</p>
+</div>
+</body>
+</html>
+
+<html>
+<head>
+<style>
+.div_1{background-color:orange;margin:20px;}
+.div_2{background-color:yellow;margin:20px;}
+</style>
+</head>
+<body>
+<center>
+<br>
+<div class="div_1"><h1><font color="green" size="6" face="cooper">qutab minar</font></h1></div>
+<div class="div_2">
+<img src="C:\Users\Navya\Desktop/qutub-minar-1024x612.jpg" alt="qutab minar" height="300" width="450"/>
+<p>The qutab minar also spelled as qutub minar and qutab minar is a minaret and "victory tower" that forms part of the quth complex</p>
+<p>Its closest comparator is the 62-metre all-brick minaret of Jam in afghanistan,of c.1190,a decade or so before the prohable start of the delhi tower.</p>
+</div>
+</body>
+</html>
+
+<html>
+<head>
+<style>
+.div_1{background-color:orange;margin:20px;}
+.div_2{background-color:yellow;margin:20px;}
+</style>
+</head>
+<body>
+<center>
+<br>
+<div class="div_1"><h1><font color="green" size="6" face="cooper">Taj Mahal</font></h1></div>
+<div class="div_2">
+<img src="C:\Users\Navya\Desktop/taj mahal.jpg" alt="tajmahal" height="300" width="450"/>
+<p>The Taj Mahal is an ivory-white marble mausoleum on the southern bank of the river yamuna in the Indian city of Agra.It was commissioned in 1632 by the Mughal emperor Shajahan.</p>
+<p>The Taj Mahal was designated as a UNESCO world heritage site in 1983 for being "the jewel of muslim art in India and one of the universally admired masterpiece.</p>
+</div>
+</body>
+</html>
+
