@@ -1,0 +1,550 @@
+1.	Change the color of all <p> elements to "red".
+<html>
+<head>
+<style>
+div p{
+	color:red;
+     }
+</style>
+</head>
+<body>
+<div>
+	<p>This is a paragraph inside a div element</p>
+	<p>This is another paragraph inside a div element</p>
+	<span><p>This is a paragraph inside a span element,inside a div element</p></span>
+</div>
+<p>This is a paragraph,not inside a div element</p>
+<p>This is another paragraph,not inside a div element</p>
+</body>
+</html>
+2.	Create all <p> elements will be center-aligned, with a red text color.
+<html>
+<head>
+<style>
+.center{
+	 text-align:center;
+	 color:red;
+       }
+</style>
+</head>
+<body>
+<p class="center">This is a paragraph</p>
+<p class="center">This is another paragraph</p>
+<p class="center">this is another paragraph</p>
+</body>
+</html>
+
+3.	Create CSS comment starts with /* and ends with */.
+
+
+
+<head>
+<style>
+p{
+	color:red; /*set text color to red*/
+ }
+</style>
+</head>
+<body>
+<h2>My heading</h2>
+<!-- these paragraphs will be red -->
+<p>Hello world!</p>
+<p>this paragraph is styled with css.</p>
+<p>HTML and CSS comments are not shown in the output</p>
+</body>
+</html>
+4.	Set the background color for the page to "linen" and the background color for <h1> to "lightblue".
+<html>
+<head>
+<style>
+body{ 
+	background-color:linen;
+    }
+h1{
+	background-color:lightblue;
+  }
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+
+5.	Set the font family for the page to "Courier New", and the font family for <h1> to "Verdana".
+<html>
+<head>
+<style>
+body{
+	font-family:"Courier New";
+    }
+h1{
+	font-family:Verdana;
+  }
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+6.	Change the color of all <p> and <h1> elements, to "red". Group the selectors  to minimize code.
+<html>
+<head>
+<style>
+h1,p{
+	color:red;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</p>
+<h2>this is a smaller heading</h2>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+7.	Specify that the background image should be shown once, in the top right corner.
+<html>
+<head>
+<style>
+body{
+	background-image:url("C:\Users\Navya\Desktop/download.jpg");
+	background-repeat:no-repeat;
+	background-position:top right;
+}
+</style>
+</head>
+<body>
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+8.	With the font property: Set the <p> to "italic", "20px" and "Verdana".
+<html>
+<head>
+<style>
+p{
+	font:italic 20px verdana;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+12.	Set the color for links to "green".
+<html>
+<head>
+<style>
+a:link{
+color:green;
+background-color:transparent;
+text-decoration:none;
+}
+a:visited{
+color:pink;
+background-color:transparent;
+text-decoration:none;
+}
+a:hover{
+color:red;
+background-color:transparent;
+text-decoration:underline;
+}
+a:active{
+color:yellow;
+background-color:transparent;
+text-decoration:underline;
+}
+</style>
+</head>
+<body>
+<h2>link colors</h2>
+<p>you can change the default colors of the links</p>
+<a href="html_images.asp" target="_blank">HTML Images</a>
+</body>
+</html>
+13.	Show <p> elements as "italic" text.
+<html>
+<head>
+<style>
+p{
+	font-style:italic;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+14.	Change the color of the element with id="para1", to "red".
+<html>
+<head>
+<style>
+#para1{
+color:red;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p id="para1">this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+15.	Change the color of all elements with the class "colortext", to "red".
+<html>
+<head>
+<style>
+.colortext{
+		color:red;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p class="colortext">this is another paragraph</p>
+<p class="colortext">this is also a paragraph</p>
+</body>
+</html>
+16.	Show <p> elements as "bold" text.
+<html>
+<head>
+<style>
+p{
+    font-weight:bold;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+17.	Add an external style sheet with the URL: "mystyle.css".
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+</body>
+</html>
+body{
+	background-color:lightblue;
+    }
+h1{
+	color:navy;
+	margin-left:20px;
+}
+18.	Set the font size for the page to "20px", and the font size for <h1> to "3em".
+<html>
+<head>
+<style>
+body{
+	font-size:20px;
+}
+h1{
+	font-size:3em;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+19.	Set "background-color: linen" for the page, using an internal style sheet.
+<html>
+<head>
+<style>
+body{
+	background-color:linen;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+20.	Set "background-color: linen" for the page, using an inline style.
+<html>
+<head>
+</head>
+<body style="background-color:linen">
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+21.	Set the text color for the page to "red", and the text color for <h1> to "blue".
+<html>
+<head>
+<style>
+body{
+color:red;
+}
+h1{
+color:blue;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+22.	Center align the <h1> element.
+<html>
+<head>
+<style>
+h1{
+	text-align:center;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<h2>this is a heading</h2>
+<h3>this is a heading</h3>
+<h4>this is a heading</h4>
+<h5>this is a heading</h5>
+</body>
+</html>
+23.	Remove the underline from the link.
+<html>
+<head>
+<style>
+a:link{
+	text-decoration:none;
+}
+a:visited{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:active{
+	text-decoration:underline;
+}
+</style>
+</head>
+<body>
+<h2>css links</h2>
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b><a href="default.asp" target="_blank">This is another link</a></b></p>
+</body>
+</html>
+24.	Use the padding property to set the top and bottom paddings for <p> to "25px", and left and right paddings to "50px".
+<html>
+<head>
+<style>
+p{
+	background-color:lightblue;
+	padding:25px 50px;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+</body>
+</html>
+25.	Style text in <h1> to uppercase letters, and text in <p> to capitalized letters.
+<html>
+<head>
+<style>
+h1{
+	text-transform:uppercase;
+}
+p{
+	text-transform:capitalize;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+</body>
+</html>
+26.	Set the width of <h1> to "50%".
+<html>
+<head>
+<style>
+h1{
+	background-color:pink;
+	width:50%;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+</body>
+</html>
+27.	With the border property: Set the border for p to "10px", "solid" and "green".
+<html>
+<head>
+<style>
+p{
+	border:10px solid green;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+</body>
+</html>
+28.	Use the margin property to center align the <h1> element.
+<html>
+<head>
+<style>
+h1{
+	background-color:lightblue;
+	width:300px;
+	margin:auto;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+</body>
+</html>
+29.	Set the color for unvisited links to "red", and the color for visited links "blue
+<html>
+<head>
+<style>
+a:link{
+	color:red;
+}
+a:visited{
+	color:blue;
+}
+a:hover{
+	color:black;
+}
+a:active{
+	color:green;
+}
+</style>
+</head>
+<body>
+<h1>this is a heading</h1>
+<p>this is a paragraph</p>
+<p><a href="https://www.w3schools.com">w3schools.com</a></p>
+</body>
+</html>
+
+31.	Set the list style for unordered lists to "square", and the list style for ordered lists to "upper-roman".
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css"></style>
+	<p>This is an unorderd list:</p>
+	<ul>
+		<li>coffe</li>
+		
+		<li>tea</li>
+		<li>coca cola</li>
+	</ul>
+		
+		<p>This is an orderd list:</p>
+	<ol>
+		<li>coffe</li>
+		
+		<li>tea</li>
+		<li>coca cola</li>
+		
+
+	</ol>
+
+
+</body>
+</html>
+32.	Remove underlines for visited and unvisited links, and specify "underline" for the hover and active link states.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Links</h2>
+<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.</p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS definition in order to be effective.</p>
+
+</body>
+</html>
+34.	Set the background color for visited and unvisited links to "lightblue", and the background color for the hover and active link states to "yellow".
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* unvisited link */
+a {
+  background-color: lightblue;
+}
+
+/* visited link */
+a {
+  background-color: lightblue;
+}
+
+/* mouse over link */
+a {
+  background-color: yellow;
+}
+
+/* selected link */
+a {
+  background-color: yellow;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+<p><a href="https://www.w3schools.com">W3Schools.com</a></p>
+
+</body>
+</html>
